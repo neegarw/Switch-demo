@@ -1,0 +1,521 @@
+:root{
+    --aciqyasil: #53d153;
+    --tundyasil: #2b9b2b;
+}
+header{
+    background: url(../img/headerbg.jpg) center/cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px;
+}
+menu li a{
+    font: 1em "Proxima Nova";
+    color: #fff;
+    white-space: nowrap;
+}
+#search{
+    display: flex;
+    justify-content: center;
+}
+#search input, #search button{
+    border: none;
+    outline: none;
+    height: 27px;
+    background: #ffffffcc;
+}
+#search input{
+    border-radius: 1em 0 0 1em;
+    padding: 5px 15px;
+}
+#search button {border-radius: 0 1em 1em 0;}
+#search button img{height: 22px;}
+h1{
+    font: bold 2rem  "Montserrat";
+    color: #fff;
+}
+#title button{
+    border: none;
+    background-color: var(--aciqyasil);
+    font: 1.3em "Proxima Nova";
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 1em;
+    margin-top: 40px;
+    transition: .4s ease-in-out;
+}
+#title button:hover{
+    box-shadow: 2px 5px 10px #fff;
+    background-color: var(--tundyasil);
+    scale: 1.1;
+}
+#scroll a{
+    padding: 5px 10px ;
+    display: inline-block;
+    border-radius: 13px;
+    background-color: #ffffffb3;
+    font: 1em "Proxima Nova";
+    color: #111 ;
+    justify-content: center;
+}
+#scroll{padding-bottom: 12px;}
+.bgyasil{background: var(--aciqyasil);}
+.bgag{background: #fff;}
+.bgboz{background: #f2f1f1;}
+.tundyasil{
+    text-align: center;
+    background: var(--tundyasil);}
+main section{
+    padding: 40px 0;
+    text-align: center;
+}
+h2{
+    font: 1.2rem "Montserrat";
+    letter-spacing: 4px;
+}
+h6{font: 1em "Open Sans";}
+section hr{
+    border: none;
+    width: 43px;
+    height: 2px;
+}
+.bgag h2{color:#828181;}
+.bgag h6{color: #b7b3b3;}
+.bgyasil h2{color: #2a8a2a;}
+.bgyasil h6{color: #2b9b2b}
+.bgboz h2{color: #828181;}
+.bgboz h6{color: #b7b3b3;}
+.bgag hr{background-color: #818181 ;}
+.bgyasil hr{background-color: #1f7b1f;}
+.bgboz hr{background-color: #818181;}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+}
+.icon{
+    width: 142px;
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f3e0;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.icon i{
+    font-size:4.6em ;
+    color: var(--aciqyasil);
+}
+.col1 h3{
+    font: bold 1.5rem "Proxima Nova";
+    color: #828181;
+    margin-bottom:13px ;
+}
+.col1 p{
+    padding: 0 68px;
+    font: 1em "Montserrat";
+    color: #828181;
+}
+.col1 a{
+    margin-top: 25px;
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: var(--aciqyasil);
+    font: bold 1em "Proxima Nova";
+    color: #fff;
+    border-radius: 15px;
+}
+#sec2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.btn3{
+    padding: 60px 0;
+    display: flex;
+}
+.btn3 button{
+    font: 1em "Proxima Nova";
+    border: 1px solid #2b9b2b ;
+    background: #fff;
+    padding: 5px 11px;
+    color: #2b9b2b;
+    transition: .3s ease-in-out;
+}
+.btn3 button.active, .btn3 button:hover{
+    background:#2b9b2b ;
+    color: #fff;
+}
+.btn3 button:first-child{border-radius: 16px 0 0 16px;}
+.btn3 button:last-child{border-radius: 0 16px 16px 0;}
+#gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#gallery img{
+    width: 100%;
+    border-radius: 2px;
+}
+#sec3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#sec3 .text p{
+    font:1em "Proxima Nova";
+    color: #444;
+}
+#sec3 img{
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    padding: 5px;
+}
+.text {padding: 30px 0 20px 0;}
+.ceo{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center ;
+}
+.herp{
+    text-align: left;
+}
+.herp h4{
+    font: 1rem "Proxima Nova";
+    color: #444;
+}
+.herp h6{
+    font: bold 1rem "Proxima Nova";
+    color: #ccc;
+}
+#sec4 .client{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.client .noapple{
+    padding:30px ;
+    width: 60%;
+}
+.apple{
+    padding-left:150px ;
+    padding-right:150px ;
+    align-items: center;
+    height: 65px;
+}
+.see{margin: 60px;}
+.see a{
+    display: inline-block;
+    font: 1.1em "Proxima Nova";
+    background-color: #dddcdc;
+    color: #a59d9d;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 32px;
+}
+#fame{
+    padding-top:16px ;
+    display: flex;
+    flex-direction: column;
+}
+#sec5 .line{
+    width: 2px;
+    height: 30px;
+}
+#sec5 img{
+    background-color: #fff;
+    width: 125px;
+    height: 125px;
+    object-fit:contain;
+    border-radius: 50%;
+}
+#sec5 h4{
+    font: 1em "Proxima Nova";
+    color: #fff;
+}
+.famecontact{
+    padding: 2px 6px;
+    display: inline-block;
+    background-color: #c5e9c5;
+    border-radius: 14px;
+}
+.famecontact i{
+    font-size: 1.2em;
+    display: inline-block;
+}
+.fa-square-instagram{color: palevioletred;}
+.fa-facebook{color: deepskyblue;}
+.fa-square-x-twitter{ color: #111;}
+#workwithus{
+    padding: 26px;
+}
+#workwithus button{
+    padding: 13px 23px;
+    border: none;
+    border-radius: 20px;
+    font: 1.2em "Proxima Nova";
+    color: #fff;
+    box-shadow: 5px 5px 10px #111;
+    transition: .5s ease-in-out;
+}
+#workwithus button:hover{scale: 1.1;}
+.fttr1{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    padding: 30px 0;
+    justify-content: start;
+}
+.ftcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    justify-content: start;
+}
+.fttr1 section{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.fttr1 section h3{
+    font: 1rem "Montserrat";
+    letter-spacing: 3px;
+    color: #ddd;
+}
+.fttr1 section hr{
+    width: 30px;
+    height: 2px;
+    border: none;
+    background-color: #ddd;
+}
+.fttr1 section p{
+    font:1em "Proxima Nova";
+    color: #ccc;
+}
+.fttr1 .famecontact{
+    margin: 8px;
+    background-color: #e6e7e6;
+}
+.recent{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.fttr1 .recent img{
+    width: 54px;
+    height: 54px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+.fttr1 .posts{
+    text-align: left;
+    display: flex;
+    gap: 7px;
+}
+.recent h4{
+    font: 1rem "Montserrat";
+    color: #ccc;
+}
+.recent h6{
+    padding: 4px 6px;
+    border-radius: 2px;
+    display: inline-block;
+    font: 0.7rem "Montserrat"; 
+    color: #fff;
+}
+.bgsari{background-color: #ffba00;}
+.bgmavi{background-color: #089cea;}
+.bgqirmizi{background-color: #f34c03;}
+.contactus p{
+    font: .9rem "Proxima Nova";
+    color: #ccc;
+    text-decoration: solid #ccc;
+}
+.contactus form{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    font: 1em "Proxima Nova";
+    color: #777;
+}
+.contactus input{
+    outline: none;
+    border: none;
+    padding: 11px 15px;
+    font: 1em "Proxima Nova";
+    color: #777;
+}
+.contactus input:first-child{
+    border-radius: 3px 3px 0 0;
+    border-bottom: 2px solid #333 ;
+}
+.contactus textarea{
+    outline: none;
+    height: 163px;
+    font: 1em "Proxima Nova";
+    color: #777;
+    padding: 10px 15px;
+    border: none;
+}
+.contactus button{
+    border: none;
+    font: .9em "Proxima Nova";
+    padding: 7px;
+    color: #fff;
+    border-radius: 0 0 3px 3px;
+    text-transform: uppercase;
+    border-top: 2px solid #333;
+}
+.fttr2{
+    background-color: #212121;
+    text-align: center;
+}
+.fttr2 h3{
+    padding: 25px 0 7px 0;
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #101010;
+}
+.fttr2 hr{
+    width: 30px;
+    height: 2px;
+    border: none;
+    background-color: #0f0f0f;
+}
+.fttrlogo{
+    padding: 25px 0 30px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap:15px;
+}
+.fttrlogo img{
+    width: 60%;
+}
+.fttr3{
+    padding: 10px;
+    font: 1em "Proxima Nova";
+    color: #fff;
+    text-align: center;
+    background-color: #111;
+}
+
+@media only screen and (min-width: 768px){
+    nav{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    menu{
+        display: flex;
+        gap: 30px;
+        order: -1;
+        flex-basis: 40%;
+    }
+    menu li a{transition: .1s ease-in-out;}
+    menu li a.active, menu li a:hover{
+        border-top: 5px solid var(--aciqyasil);
+        font-weight: bold;
+    }
+    #logo{flex-basis: 20%;}
+    #search{    
+        flex-basis: 40%;
+        justify-content: end;}
+    h1{font-size: 3.4rem;}
+    .sec1{flex-direction: row;}
+    #gallery{
+        max-width: 920px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    #gallery img{
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+    }
+    .text{
+        max-width: 490px ;
+        margin: auto;
+        padding: 70px 0 20px 0;
+    }
+    .client{
+        max-width: 920px ;
+        margin: auto;
+        gap: 60px;
+    }
+    .first{
+        width: 950px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 120px;
+    }
+    .second{
+        width: 950px;
+        flex-direction: row;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #sec4 .noapple{
+        padding: 0;
+        width: 150px;
+    }
+    .apple{padding: 0;}
+    .team{
+        width: 823px;
+        margin: auto;
+        gap: 50px;
+        flex-direction: row;
+    }
+    #sec5 .line{height: 77px;}
+    .ftcontainer{
+        width: 95%;
+        margin: auto;
+        align-items: start;
+        justify-content: start;
+        flex-direction: row;
+    }
+    .fttr1 section{
+        margin: 0 40px;
+        width: 29%;
+    }
+    .fttrlogo{
+        width: 90%;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .fttrlogo img{
+        width: initial;
+    }
+}
